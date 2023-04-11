@@ -4,8 +4,10 @@ const Schema = mongoose.Schema;
 const LearningSchema = new Schema({
     title: String,
     body: String,
+    rating: String,
+    comments: String,
     date: {
-        type: String,
+        type: Date,
         default: Date.now()
     }
 });
