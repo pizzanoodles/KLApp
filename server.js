@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 
-//calmlyDemented
+//calmlyDemented => password
 const MONGODB_URI='mongodb+srv://jensjovellano:calmlyDemented@knowledgereview.frvnxmg.mongodb.net/?retryWrites=true&w=majority';
 
 
